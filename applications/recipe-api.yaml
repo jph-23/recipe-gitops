@@ -9,9 +9,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/
+    repoURL: https://github.com
     targetRevision: HEAD
-    path: recipe-api
+    path: https://github.com/jph-23/recipe-gitops.git
 
   destination:
     server: https://kubernetes.default.svc
