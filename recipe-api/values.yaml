@@ -10,6 +10,7 @@ recipeApi:
   image:
     repository: nginx
     tag: 1.16.0
+    pullPolicy: IfNotPresent
 
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 imagePullSecrets: []
