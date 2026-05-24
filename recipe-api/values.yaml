@@ -158,3 +158,8 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+postgresql:
+  image:
+    repository: bitnami/postgresql
+    tag: 16.3.0-debian-12
